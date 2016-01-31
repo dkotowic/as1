@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">kotowicz-FuelTrack</string>
+    <string name="date_fuelled">Date of Fuelling (format: yyyy-mm-dd)</string>
+    <string name="station">Fuelling Station</string>
+    <string name="odometer">Odometer Reading (in km)</string>
+    <string name="fuel_grade">Fuel Grade</string>
+    <string name="fuel_amt">Fuel Amount (in L)</string>
+    <string name="fuel_unit_cost">Fuel Unit Cost (in cents per L)</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_list_purchases">Log Entries</string>
+    <string name="title_activity_purchase_edit">Purchase Edit</string>
+    <string name="title_activity_purchase_entry">Purchase Entry</string>
+    <string name="submit_edit">Submit Edit</string>
+    <string name="cancel">Cancel and Return to Log</string>
+    <string name="new_purch">New Purchase</string>
+    <string name="clear">Clear Log</string>
+</resources>
