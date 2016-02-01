@@ -57,7 +57,7 @@ public class ListPurchases extends AppCompatActivity {
 
         loadFromFile();
 
-        adapter = new ArrayAdapter<>(this, R.layout.list_view, PurchLog.getFuelPurchases());
+        adapter = new ArrayAdapter<FuelPurchase>(this, R.layout.list_view, PurchLog.getFuelPurchases());
         adapter.notifyDataSetChanged();
 
         Button clearButton = (Button) findViewById(R.id.clear);
