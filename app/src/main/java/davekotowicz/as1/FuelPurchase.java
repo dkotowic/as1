@@ -1,3 +1,14 @@
+/*
+This object is a model of a single fuel purchase. It contains all of the attributes associated with a purchase
+and contains getter and setter methods to view or manipulate the values stored. By using objects, any updates done to an object affects
+the original list it is in instead of having to be replaced in the list (edits).
+I implemented a method for comparing the objects for sorting based on my original understanding of the spec, but realized it was not
+necessary to sort the list by date of purchase, but instead by date of entry (i.e. default).
+Instead of removing the method, I left it in, since it works well and can be used in future implementations of such an app.
+I opted to just comment out the portions of code that would have otherwise served as the sorting moments (see PurchaseLog).
+No issues currently outstanding for this model.
+*/
+
 package davekotowicz.as1;
 
 import android.text.format.DateFormat;

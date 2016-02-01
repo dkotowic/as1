@@ -1,3 +1,11 @@
+/*
+This object facilitates the management of fuel purchases in a list. While it doesn't differ much from a pure arraylist,
+the maintenance of the purchases inside a container object allows for methods that manipulate the data according to the app's needs.
+I commented out the portions that would have sorted the fuel purchase objects by date, based on my realization that the sorting did not need
+to occur, but felt that removing the sort entirely was unnecessary since the implementation was complete and worked effectively.
+No issues are outstanding with this class.
+*/
+
 package davekotowicz.as1;
 
 import android.support.v7.app.AppCompatActivity;

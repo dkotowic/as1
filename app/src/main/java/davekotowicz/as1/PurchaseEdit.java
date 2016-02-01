@@ -1,3 +1,16 @@
+/*
+This view allows a given fuel purchase object to be editted in place, by first populating the fields based on the original
+object's attributes, and allowing the user to make modifications. Once modifications are complete, the object's attributes are modified
+while automatically changes the object in the purchase log since the reference is to the same object as that in the log.
+An additional function is included for when exceptions occur where data entered is invalid, to allow a clear message to the user
+about the nature of their error (checks for numeric value of entered string).
+The purchase entry and purchase edit classes appear to be relatively similar but I have opted to differentiate them entirely;
+this decision allows for subtle difference in operation (e.g., new entry resets the fields and stays on page for additional entries,
+while an edit results in the immediate return to the log) and also allows for future implementations of the app to have flexibility in
+specializing the look of the views -- they're not intended to be considered similar despite their current appearance similarities.
+This class does not have any outstanding issues.
+*/
+
 package davekotowicz.as1;
 
 import android.content.Intent;
@@ -160,7 +173,7 @@ public class PurchaseEdit extends AppCompatActivity {
         }
     }
 
-    public Boolean IsNotNumeric(String s){
+    private Boolean IsNotNumeric(String s){
         try{
             Float.parseFloat(s);
             return false;

@@ -1,3 +1,15 @@
+/*
+This view displays in a listview on screen a list of all of the fuel purchase objects that are contained in the
+fuel purchase log object's attribute arraylist. These are currently sorted by the order in which they were added to the log,
+but future implementations may include a sort by date, a feature that is already built into this version but is not implemented.
+Additionally, a clear button is included on screen even though it wasn't in the spec, which allows a user to clear out the log in the event
+they wanted to start from new. It should be noted that the clear button does not update the page, so the log will appear populated while
+user remains on screen; the intention of this button was for testing and the app would be closed and reopened each time it was utilized.
+In future implementations, this feature would be more fleshed out to provide the user a satisfying and immediate experience.
+I would also like to include a delete purchase functionality in a future version of the app, as I think it would serve the end user well.
+This class does not have any outstanding issues.
+*/
+
 package davekotowicz.as1;
 
 import android.content.Intent;
